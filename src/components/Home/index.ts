@@ -1,0 +1,56 @@
+import styled from "styled-components";
+
+
+export const Container = styled.div`
+display: flex;
+flex-wrap: nowrap;
+max-width: 1400px;
+padding: 100px;
+border-top: 2px solid ${props => props.theme == 'light' ? 'black' : 'white'};
+color: ${props => props.theme == 'light' ? 'black' : 'white'};
+
+@media only screen and (max-width: 700px) {
+display: flex;
+flex-direction: column;
+width: auto;
+}
+
+
+
+`;
+
+
+export const ImageContainer = styled.div`
+margin-top: 10px;
+margin-left: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+img  {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+`;
+
+export const HomeAbout = styled.div`
+margin-top: 25px;
+margin-left: 60px;
+margin-right: 0;
+flex-direction: column;
+font-size: 1.5em;
+width: 500px;
+
+@media only screen and (max-width: 700px) {
+   margin: auto;
+   width: auto;
+}
+
+
+
+
+
+`;

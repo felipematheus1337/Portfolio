@@ -2,16 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.header`
 display: flex;
-margin: 0 auto;
-margin-right: 50px;
+margin: 0 60px 10px auto;
 width: 100vh;
 max-width: auto;
 justify-content: space-between;
 background-color: ${props => props.theme == 'dark' ? '#404552' : 'white'};
 border: none;
 
-
 padding: 7px;
+
 a {
     margin: 2px auto;
     font-size: 1.3rem;
@@ -23,6 +22,10 @@ a:hover {
     color: ${props => props.theme == 'dark' ? 'black' : 'white'};
     cursor: pointer;
     opacity: 0.5;
+}
+
+a:hover:nth-child(5) {
+    background-color: ${props => props.theme == 'dark' ? 'black' : 'white   '};
 }
 
 svg {
@@ -42,6 +45,9 @@ svg {
 @media only screen and (max-width: 700px) {
 display: flex;
 flex-direction: column;
+margin: auto;
+justify-content: space-between;
+width: auto;
 }
 
 `;

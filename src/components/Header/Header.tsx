@@ -3,12 +3,10 @@ import {BsSun} from "react-icons/bs";
 import {BsFillMoonFill} from "react-icons/bs";
 import { useTheme } from "../../hooks/ThemeContext";
 import { Theme } from "../../@types/Theme";
-import { useState } from "react";
+
 
 export const Header = () => {
     const { theme, setTheme } = useTheme();
-    const [tema,setTema] = useState<boolean>(false);
-    console.log(theme);
     
 
     return (
@@ -17,12 +15,12 @@ export const Header = () => {
             <a>About</a>
             <a>Projects</a>
             <a>Contact</a>
-            
-                {theme == Theme.Light ?
+                <a>{theme == Theme.Light ?
                  (<BsFillMoonFill className="moon" onClick={() => setTheme(Theme.Dark)}/>)
                  :
                  (<BsSun className="sun" onClick={() => setTheme(Theme.Light)}/>)
                   }
+            </a>
             
         </C.Container>
     )

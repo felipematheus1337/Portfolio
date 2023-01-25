@@ -9,6 +9,7 @@ import {Link} from "react-scroll";
 export const Header = () => {
     const { theme, setTheme } = useTheme();
     
+    
 
     return (
         <C.Container theme={theme == Theme.Light ? 'light' : 'dark'}>
@@ -19,9 +20,19 @@ export const Header = () => {
            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} >Projetos</Link>
            <Link to="contact"  spy={true} smooth={true} offset={-100} duration={500} >Contato</Link>
                 <a>{theme == Theme.Light ?
-                 (<BsFillMoonFill className="moon" onClick={() => setTheme(Theme.Dark)}/>)
+                 (<BsFillMoonFill className="moon"
+                  onClick={() => {
+                    localStorage.setItem("tema",Theme.Dark);
+                    setTheme(Theme.Dark);
+                 }}
+                    />)
                  :
-                 (<BsSun className="sun" onClick={() => setTheme(Theme.Light)}/>)
+                 (<BsSun className="sun"
+                  onClick={() => {
+                    localStorage.setItem("tema",Theme.Light);
+                    setTheme(Theme.Light)
+                }}
+                />)
                   }
             </a>
             

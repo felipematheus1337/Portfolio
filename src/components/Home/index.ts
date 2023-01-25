@@ -31,7 +31,7 @@ justify-content: center;
 
 img  {
     width: 300px;
-    height: 300px;
+    height: 370px;
     border-radius: 50%;
 }
 

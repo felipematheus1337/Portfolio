@@ -6,13 +6,15 @@ padding: 30px;
 flex-direction: column;
 background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#948d8d'};
 color: ${props => props.theme == 'light' ? 'black' : 'white'};
-max-width: 1400px;
+max-width: auto;
 flex-wrap: nowrap;
 margin: 2px auto;
+
 
 h1 {
     text-align: center;
     align-text: center;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -20,6 +22,13 @@ h1 {
     flex-direction: column;
     margin: auto;
     width: auto;
+
+    h1 {
+        text-align: center;
+        align-text: center;
+        margin-bottom: 50px;
+    }
+
     }
 `;
 
@@ -31,8 +40,7 @@ margin-top: 18px;
 
 img {
     width: 85px;
-    
-    margin: 3px auto;
+    margin: 10px auto;
 }
 
 @media only screen and (max-width: 700px) {
@@ -42,7 +50,9 @@ img {
     width: auto;
 
     img {
+        margin-top: 15px;
         margin-bottom: 10px;
     }
+
     }
 `;

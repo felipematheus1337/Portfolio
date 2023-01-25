@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Body = styled.body ` 
 margin: 0;
 padding: 0;
-height: 100vh;
-width: 100vh;
+border: 1px solid transparent;
 `
 
 export const Container = styled.div`

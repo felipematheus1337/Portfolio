@@ -7,7 +7,7 @@ flex-direction: column;
 background-color: ${props => props.theme == 'dark' ? '#4b5162' : '#dcdcdc'};
 border-top: 2px solid ${props => props.theme == 'light' ? 'black' : '#dcdcdc'};
 color: ${props => props.theme == 'light' ? 'black' : 'white'};
-max-width: 1400px;
+max-width: auto;
 flex-wrap: nowrap;
 margin: 2px auto;
 
@@ -34,7 +34,7 @@ flex-wrap: nowrap;
 margin: 5px auto;
 padding: 50px;
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1018px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@ padding: 50px;
 export const ExperienceDiv = styled.div`
 display: flex;
 flex-direction: column;
-margin: 10px;
+margin: 10px 25px 10px 10px;
 background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#bdb9b9'};
 width: 400px;
 height: auto;

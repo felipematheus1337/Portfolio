@@ -6,7 +6,7 @@ margin: 0 60px 10px auto;
 width: 100vh;
 max-width: auto;
 justify-content: space-between;
-background-color: ${props => props.theme == 'dark' ? '#404552' : 'white'};
+background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#bdb9b9'};
 border: none;
 
 padding: 7px;
@@ -24,8 +24,8 @@ a:hover {
     opacity: 0.5;
 }
 
-a:hover:nth-child(5) {
-    background-color: ${props => props.theme == 'dark' ? 'black' : 'white   '};
+a:hover:nth-child(6) {
+    background-color: ${props => props.theme == 'dark' ? 'black' : '#bdb9b9'};
 }
 
 svg {

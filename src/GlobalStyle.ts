@@ -8,7 +8,7 @@ width: 100vh;
 `
 
 export const Container = styled.div`
-background-color: ${props => props.theme == 'dark' ? '#404552' : 'white'}
+background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#bdb9b9'}
 `
 
 

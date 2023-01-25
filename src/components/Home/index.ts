@@ -6,7 +6,8 @@ display: flex;
 flex-wrap: nowrap;
 max-width: 1400px;
 padding: 100px;
-border-top: 2px solid ${props => props.theme == 'light' ? 'black' : 'white'};
+background-color: ${props => props.theme == 'dark' ? '#4b5162' : '#dcdcdc'};
+border-top: 2px solid ${props => props.theme == 'light' ? 'black' : '#dcdcdc'};
 color: ${props => props.theme == 'light' ? 'black' : 'white'};
 
 @media only screen and (max-width: 700px) {
@@ -38,7 +39,7 @@ img  {
 
 export const HomeAbout = styled.div`
 margin-top: 25px;
-margin-left: 60px;
+margin-left: 150px;
 margin-right: 0;
 flex-direction: column;
 font-size: 1.5em;

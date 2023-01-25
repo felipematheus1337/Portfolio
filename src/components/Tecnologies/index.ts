@@ -1,19 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-margin: 0px auto;
 display: flex;
-flex-wrap: nowrap;
-max-width: 1400px;
-padding: 60px;
-
-
-
-
+padding: 30px;
+flex-direction: column;
+background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#948d8d'};
 color: ${props => props.theme == 'light' ? 'black' : 'white'};
+max-width: 1400px;
+flex-wrap: nowrap;
+margin: 2px auto;
 
-img {
-    border-radius: 4px;
+h1 {
+    text-align: center;
+    align-text: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -21,24 +20,20 @@ img {
     flex-direction: column;
     margin: auto;
     width: auto;
-}
-
+    }
 `;
 
-export const AboutText = styled.div`
 
-margin: auto;
-display: flex;
-flex-direction: column;
-font-size: 1.5em;
-width: 500px;
-padding: 10px;
+export const DivIcons = styled.div`
+display:flex;
+flex-direction: row;
+margin-top: 18px;
 
-h4 {
-    margin-bottom: 1px;
-
+img {
+    width: 85px;
+    
+    margin: 3px auto;
 }
-
 
 @media only screen and (max-width: 700px) {
     display: flex;
@@ -46,11 +41,8 @@ h4 {
     margin: auto;
     width: auto;
 
-    h4:nth-child(2) {
-        margin-bottom: 20px;
+    img {
+        margin-bottom: 10px;
     }
-}
-
-
-
+    }
 `;

@@ -15,6 +15,7 @@ export const Header = () => {
             <Link to="home"    spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
            <Link to="about"    spy={true} smooth={true} offset={-100} duration={500} >Sobre</Link>
            <Link to="experience"  spy={true} smooth={true} offset={-100} duration={500} >Experiências</Link>
+           <Link to="tec"  spy={true} smooth={true} offset={-100} duration={500} >Tecnologias</Link>
            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} >Projetos</Link>
            <Link to="contact"  spy={true} smooth={true} offset={-100} duration={500} >Contato</Link>
                 <a>{theme == Theme.Light ?

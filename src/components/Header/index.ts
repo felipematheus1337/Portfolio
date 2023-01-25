@@ -24,7 +24,7 @@ a:hover {
     opacity: 0.5;
 }
 
-a:hover:nth-child(6) {
+a:hover:nth-child(7) {
     background-color: ${props => props.theme == 'dark' ? 'black' : '#bdb9b9'};
 }
 

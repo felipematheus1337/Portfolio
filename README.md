@@ -6,6 +6,15 @@ Link do portfolio: https://felipematheusportfolio.vercel.app/
 
 ----.-----------.---------.------
 
+<h2>Tecnologias Utilizadas:</h2>
+<div style="display: inline_block" align="center"><br>
+<img width="80" height="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img width="80" height="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+<img width="80" height="80" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" />
+</div>
+          
+          
+
 
 #### Para iniciar o projeto
 

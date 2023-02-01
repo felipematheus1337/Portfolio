@@ -4,13 +4,13 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex;
 flex-wrap: nowrap;
-max-width: 1400px;
+max-width: 100%;
 padding: 100px;
 background-color: ${props => props.theme == 'dark' ? '#4b5162' : '#dcdcdc'};
 border-top: 2px solid ${props => props.theme == 'light' ? 'black' : '#dcdcdc'};
 color: ${props => props.theme == 'light' ? 'black' : 'white'};
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 968px) {
 display: flex;
 flex-direction: column;
 width: auto;

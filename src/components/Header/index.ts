@@ -42,7 +42,7 @@ svg {
     color: #FEB125;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 962px) {
 display: flex;
 flex-direction: column;
 margin: auto;

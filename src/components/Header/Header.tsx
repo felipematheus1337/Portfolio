@@ -38,7 +38,7 @@ export const Header = () => {
 
                 </div>}
             </p>
-                <a>{theme == Theme.Light ?
+                <a className="svg-theme">{theme == Theme.Light ?
                  (<BsFillMoonFill className="moon"
                   onClick={() => {
                     localStorage.setItem("tema",Theme.Dark);

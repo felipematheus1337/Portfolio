@@ -24,14 +24,20 @@ a:hover {
     opacity: 0.5;
 }
 
-a:hover:nth-child(7) {
-    background-color: ${props => props.theme == 'dark' ? 'black' : '#bdb9b9'};
-}
+
 
 svg {
     cursor: pointer;
     font-size: 1.3rem;
     margin-top: 3px;
+}
+
+.svg-theme {
+    background: none;
+}
+
+.svg-theme:hover {
+    background: none;
 }
 
 .moon {

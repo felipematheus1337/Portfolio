@@ -1,5 +1,5 @@
 import * as C from "./index";
-import computer from "../../assets/computer.gif";
+import computer from "../../assets/images/computer.gif";
 import { useTheme } from "../../hooks/ThemeContext";
 import { Theme } from "../../@types/Theme";
 

@@ -1,8 +1,8 @@
 import { Theme } from "../../@types/Theme";
 import { useTheme } from "../../hooks/ThemeContext";
 import * as C from "./index";
-import projectExample from "../../assets/projects.jpeg";
-import chatSW from "../../assets/chatsw.jpeg";
+import projectExample from "../../assets/images/projects.jpeg";
+import chatSW from "../../assets/images/chatsw.jpeg";
 
 
 const Projects = () => {

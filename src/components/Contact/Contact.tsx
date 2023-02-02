@@ -1,10 +1,10 @@
 import * as C from "./index";
-import phone from "../../assets/contact.gif";
+import phone from "../../assets/images/contact.gif";
 import { useTheme } from "../../hooks/ThemeContext";
 import { Theme } from "../../@types/Theme";
-import gmailIcon from "../../assets/gmail.png";
-import insta from "../../assets/instagram.png";
-import zap from "../../assets/zap.png";
+import gmailIcon from "../../assets/images/gmail.png";
+import insta from "../../assets/images/instagram.png";
+import zap from "../../assets/images/zap.png";
 
 const Contact = () => { 
     const { theme, setTheme } = useTheme();

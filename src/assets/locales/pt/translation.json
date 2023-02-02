@@ -1,0 +1,22 @@
+{
+    "home": "Home",
+    "sobre": "Sobre",
+    "experiencia":"Experiencia",
+    "tecnologia" : "tecnologia",
+    "projetos": "projetos",
+    "contato" : "contato",
+    "welcome" : "Bem-vindo ao meu portólio!",
+    "welcFelipe" : "Me chamo Felipe Matheus, sou um desenvolvedor Fullstack. Abaixo há mais informações sobre mim. Pegue um café e fique à vontade!",
+    "welcUva" : "Entusiasta de games e tecnologia, atualmente no 7° período de Bacharelado em Ciencia da Computação na Universidade Veiga de Almeida – UVA (Graduação estimada em Jan 2024)",
+    "softSkills": "Minhas principais Soft Skills são: estudo contínuo, pensar para resolver problemas, gerenciamento de tempo trabalho em equipe.",
+    "respDataPrev": "Responsavel pela parte de Desenvolvevimentos Fullstack, na parte do Frontend utilizando ReactJS, com bibliotecas como Bootrap, realizando implementação de novas funcionalidades, correção de bugs, criação de novas telas, manutenção de code review. No Backend com Java EE, s Spring Boot, realizando manutenção, implementação de novas funcionalidas como novos endpoints, controllers, srvices, montar Querys com JPA/JPQL",
+    "estagio": "Estagio de Desenvolvimento de Software",
+    "respNetQuant" : "Responsavel pela parte de Desenvolvimento Fullstack na parte do Frontend utilizando ReactJS , com bibliotecas como: Bootstrap, Styled Components. Utilizando também pré processadores como SASS, realizando implementação de novas funcionalidades como: light/dark mode, tradução do site usando Context API, code review, correção de bugs, manutenção do código, criação de novas telas. Backend com Ruby and Rails, criação de rotas, controllers, endpoints, correção e manutenção, WebbScrapping/Scrapping utilizando Python e bibliotecas como Pandas e BeautifulSoup, integrando com serviços da AWS, como Lambdas, Api-Gateway, S3, EC2.",
+    "tecnologias": "Tecnologias",
+    "projetosMaior" : "Projetos",
+    "maisProjetos" : "Esses são apenas alguns objetos dos meus principais projetos. Para mais, só acessar:",
+    "movieRate" : "Projeto Fullstack de avaliação de filmes e séries construído em monorepo utilizando para o Frontend, ReactJS com Typesscript. E para o Backend, Java com Spring Boot.",
+    "employeeApi" : "Uma API de controle de funcionários utilizando NodeJS com TypeScript, Postgre SQL e TypeORM, Autenticação JWT, além de upload de imagens e CRUD.",
+    "starwars": "Um chat com a temática do Star Wars em real-time com WebSockets, React e Express, sendo possível selecionar personagens específicos, alteração de background, etc.",
+    "contatos" : "Contatos"
+  }

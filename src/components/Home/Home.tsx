@@ -1,5 +1,5 @@
 import * as C from "./index";
-import me from "../../assets/myself.jpeg";
+import me from "../../assets/images/myself.jpeg";
 import { useTheme } from "../../hooks/ThemeContext";
 import { Theme } from "../../@types/Theme";
 

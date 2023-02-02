@@ -55,6 +55,7 @@ svg {
 .lng-icon {
     width: 35px;
     cursor: pointer;
+    
 }
 
 

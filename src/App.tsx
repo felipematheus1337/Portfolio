@@ -9,8 +9,11 @@ import * as C from "./GlobalStyle";
 import { ThemeContext } from './hooks/ThemeContext';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import "./i18n";
 
-function App() {
+
+function App({language} : any) {
+
   const [theme, setTheme] = React.useState(
     localStorage.getItem("tema")! as Theme
     ||
@@ -20,6 +23,7 @@ function App() {
    useEffect(() => {
      localStorage.setItem("tema",theme);
    },[])
+
 
 
   

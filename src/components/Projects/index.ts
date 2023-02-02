@@ -37,17 +37,19 @@ p {
 export const ProjectContainer = styled.div`
 display: flex;
 flex-direction: row;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 width: auto;
 height: auto;
-max-width: 1500px;
+max-width: 100%;
+margin: 10px;
+justify-content: space-around;
 
 @media only screen and (max-width: 998px) {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: auto;
-    }
+}
 
 `;
 
@@ -58,15 +60,11 @@ width: 280px;
 height: auto;
 background-color: ${props => props.theme == 'dark' ? '#383c4a' : '#bdb9b9'};
 border-radius: 10px;
-padding: 15px;
-margin: 10px auto;
 
-
-margin:0;
 padding: 0px;
 margin-bottom: 20px;
+margin: 5px auto;
 
-margin-right: auto;
 
 img {
     margin-top: 10px;

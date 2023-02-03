@@ -40,7 +40,7 @@ const Contact = () => {
             
            </C.ContactIcons>
            <p> 
-            <a href="https://www.linkedin.com/in/felipe-matheus-34232b162/" target="_blank"> 
+            <a href="https://www.linkedin.com/in/marianasancardoso/" target="_blank"> 
             Tradução realizada por Mariana Cardoso.
             <img className="icon-lk" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
             

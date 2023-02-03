@@ -18,5 +18,9 @@
     "movieRate" : "Projeto Fullstack de avaliação de filmes e séries construído em monorepo utilizando para o Frontend, ReactJS com Typesscript. E para o Backend, Java com Spring Boot.",
     "employeeApi" : "Uma API de controle de funcionários utilizando NodeJS com TypeScript, Postgre SQL e TypeORM, Autenticação JWT, além de upload de imagens e CRUD.",
     "starwars": "Um chat com a temática do Star Wars em real-time com WebSockets, React e Express, sendo possível selecionar personagens específicos, alteração de background, etc.",
-    "contatos" : "Contatos"
+    "contatos" : "Contatos",
+    "idioma":"Idioma",
+    "lngPt":"Português",
+    "lngEn":"Inglês",
+    "repositorio":"Repositório"
   }

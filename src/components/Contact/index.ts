@@ -25,6 +25,17 @@ h1 {
     align-items: center;
 }
 
+a {
+    color: ${props => props.theme == 'light' ? 'black' : 'white'};
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.icon-lk {
+    width: 20px;
+}
+
 
 `;
 

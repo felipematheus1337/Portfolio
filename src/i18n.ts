@@ -1,21 +1,28 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import ns1 from "../src/assets/locales/en/translation.json";
-import ns2 from "../src/assets/locales/pt/translation.json";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import HttpBackend from "i18next-http-backend"; // *** added this ***
 
-export const defaultNS = "ns1";
-export const resources = {
-  en: {
-    ns1,
-    ns2,
-  },
-} as const;
-
-i18n.use(initReactI18next).init({
-  lng: "en",
-  ns: ["ns1", "ns2"],
-  defaultNS,
-  resources,
-});
+i18n
+  .use(HttpBackend) // *** added this ***
+  // detect user language
+  // learn more: https://github.com/i18next/i18next-browser-languageDetector
+  .use(LanguageDetector)
+  // pass the i18n instance to react-i18next.
+  .use(initReactI18next)
+  // init i18next
+  // for all options read: https://www.i18next.com/overview/configuration-options
+  .init({
+    debug: true,
+    fallbackLng: 'en',
+    supportedLngs: ["en", "pt"], // *** added this ***
+    interpolation: {
+      escapeValue: false, // not needed for react as it escapes by default
+    },
+    backend: {
+        loadPath: `/locales/{{lng}}/translation.json`,
+    },
+   
+  });
 
 export default i18n;

@@ -9,10 +9,8 @@ import * as C from "./GlobalStyle";
 import { ThemeContext } from './hooks/ThemeContext';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import "./i18n";
 
-
-function App({language} : any) {
+function App() {
 
   const [theme, setTheme] = React.useState(
     localStorage.getItem("tema")! as Theme

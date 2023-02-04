@@ -32,10 +32,25 @@ justify-content: center;
 
 
 img  {
-    width: 300px;
-    height: 370px;
-    border-radius: 50%;
+    width: 400px;
+    height: 487px;
+    border-radius: 10%;
+    border: 3px solid black;
+-webkit-box-shadow: 13px -8px 4px 2px rgba(97,101,117,0.36);
+-moz-box-shadow: 13px -8px 4px 2px rgba(97,101,117,0.36);
+box-shadow: 13px -8px 4px 2px rgba(97,101,117,0.78);
 }
+
+@media only screen and (max-width: 700px) {
+    img  {
+        width: 200px;
+        height: 287px;
+        border-radius: 10%;
+        border: 3px solid black;
+        box-shadow: 1px 1px black, -0.5em 0 0.1em black;
+        margin: auto;
+    }
+ }
 
 `;
 

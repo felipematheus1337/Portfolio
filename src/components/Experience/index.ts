@@ -10,7 +10,6 @@ color: ${props => props.theme == 'light' ? 'black' : 'white'};
 max-width: auto;
 flex-wrap: nowrap;
 margin: 2px auto;
-
 h1 {
     text-align: center;
     align-text: center;
@@ -54,7 +53,14 @@ width: 400px;
 height: auto;
 border-radius: 10px;
 padding: 30px;
+text-align: center;
 
+ img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+  }
 
 h4 {
     text-align: center;
@@ -73,7 +79,7 @@ h3 {
 p {
     margin: 10px;
     font-size: 1.2em;
-    text-aling: justify;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 700px) {
@@ -98,6 +104,13 @@ p {
     p {
         font-size: 1.2em;
         text-aling: justify;
+    }
+
+    img {
+
+    width: 50px;
+    height: 50px;
+    
     }
 
 }

@@ -33,7 +33,7 @@ const Contact = () => {
                 <img src={insta} alt="instagram"/>
             </a>
 
-            <a href="https://web.whatsapp.com/send?phone=5521986657239" target="_blank">
+            <a href="https://web.whatsapp.com/send?phone=5521965418319" target="_blank">
                 <img src={zap} alt="whatsapp"/>
             </a>
 

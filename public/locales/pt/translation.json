@@ -7,9 +7,9 @@
     "contato" : "contato",
     "welcome" : "Bem-vindo ao meu portólio!",
     "welcFelipe" : "Me chamo Felipe Matheus, sou um desenvolvedor Fullstack. Abaixo há mais informações sobre mim. Pegue um café e fique à vontade!",
-    "welcUva" : "Entusiasta de games e tecnologia, atualmente no 7° período de Bacharelado em Ciencia da Computação na Universidade Veiga de Almeida – UVA (Graduação estimada em Jan 2024)",
     "softSkills": "Minhas principais Soft Skills são: estudo contínuo, pensar para resolver problemas, gerenciamento de tempo trabalho em equipe.",
     "respDataPrev": "Responsavel pela parte de Desenvolvevimentos Fullstack, na parte do Frontend utilizando ReactJS, com bibliotecas como Bootrap, realizando implementação de novas funcionalidades, correção de bugs, criação de novas telas, manutenção de code review. No Backend com Java EE, s Spring Boot, realizando manutenção, implementação de novas funcionalidas como novos endpoints, controllers, srvices, montar Querys com JPA/JPQL",
+    "welcUva": "Entusiasta de games e tecnologia, graduado em Ciência da Computação pela Universidade Veiga de Almeida UVA.",
     "estagio": "Estagio de Desenvolvimento de Software",
     "respNetQuant" : "Responsavel pela parte de Desenvolvimento Fullstack na parte do Frontend utilizando ReactJS , com bibliotecas como: Bootstrap, Styled Components. Utilizando também pré processadores como SASS, realizando implementação de novas funcionalidades como: light/dark mode, tradução do site usando Context API, code review, correção de bugs, manutenção do código, criação de novas telas. Backend com Ruby and Rails, criação de rotas, controllers, endpoints, correção e manutenção, WebbScrapping/Scrapping utilizando Python e bibliotecas como Pandas e BeautifulSoup, integrando com serviços da AWS, como Lambdas, Api-Gateway, S3, EC2.",
     "tecnologias": "Tecnologias",
@@ -22,5 +22,5 @@
     "idioma":"Idioma",
     "lngPt":"Português",
     "lngEn":"Inglês",
-    "repositorio":"Repositório"
-  }
+    "repositorio":"Repositório",
+    "respVarejonline":"Responsável pelo desenvolvimento fullstack, focando no Frontend com Angular, utilizando bibliotecas como Bootstrap e Material UI. Atua na migração de telas e código legado para código atual com Angular, bem como na implementação de novas funcionalidades e correção de bugs. Também é responsável por realizar code reviews e garantir a qualidade do código produzido. No Backend, trabalha com Java e Spring, mantendo o código existente e implementando novas funcionalidades, incluindo a criação de novos endpoints e controllers. Realiza consultas SQL para interagir com o banco de dados e utiliza JPA/JPQL para criar queries eficientes e otimizadas."  }
